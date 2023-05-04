@@ -42,6 +42,6 @@ app.post("/api/v1/post", async function(req, res) {
     }
 })
 
-app.listen(9001,() => {
+app.listen(process.env.PORT,() => {
     console.log("server iniciatilized")
 })
